@@ -1,11 +1,11 @@
 {
     "name": "vncoder/framework",
-    "description": "VnCoder framework base from lumen",
-    "keywords": ["framework", "vncoder", "lumen"],
+    "description": "VnCoder Core",
+    "keywords": ["laravel", "vncoder", "lumen", "cms"],
     "license": "MIT",
     "homepage": "https://nhatky.date",
     "authors": [
-        {"name": "Cuong Pham", "email": "cuongpd@gmail.com"}
+        {"name": "Cuong Pham", "email": "cuongpd122@gmail.com"}
     ],
     "require": {
         "php": "^7.2.5",
@@ -21,8 +21,7 @@
             "VnCoder\\": "src/"
         },
         "files": [
-            "helper.php",
-            "src/Backend/helper.php"
+            "helper.php"
         ]
     },
     "minimum-stability": "dev",
